@@ -1,6 +1,6 @@
-// version v1.1
-// create by ourongxing
-// detail url: https://github.com/ourongxing/CQUPT-Health-ClockIn
+// version v1.2
+// create by Ncmzh
+// detail url: https://github.com/Ncmzh/cqupt-mrdk-2021.7.20
 
 const { getMrdkKey } = require("./mrdkkey.js");
 const ax = require("axios");
@@ -86,7 +86,7 @@ function checkRepeatClock() {
   };
   const key_base64 = new Buffer.from(JSON.stringify(key)).toString("base64");
   const options = {
-    url: "https://we.cqu.pt/api/mrdk/get_mrdk_flag.php",
+    url: "https://we.cqupt.edu.cn/api/mrdk/get_mrdk_flag.php",
     method: "POST",
     data: {
       key: key_base64
@@ -216,7 +216,7 @@ function clockIn() {
   };
   const key_base64 = new Buffer.from(JSON.stringify(key)).toString("base64");
   const options = {
-    url: "https://we.cqu.pt/api/mrdk/post_mrdk_info.php",
+    url: "https://we.cqupt.edu.cn/api/mrdk/post_mrdk_info.php",
     method: "POST",
     headers: {
       "User-Agent":
