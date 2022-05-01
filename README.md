@@ -38,6 +38,7 @@
 | xjzdywqzbl                  | 14 天内是否接触过有中高风险地区旅居史的人员 | 无               |
 | twsfzc                      | 今日体温是否正常                            | 是               |
 | ywytdzz                     | 今日是否有与新冠病毒感染有关的症状          | 无               |
+| jkmresult                   | 今日渝康码颜色                              | 绿色               |
 | beizhu                      | 备注                                        | 无               |
 
 ### 使用方法
@@ -58,7 +59,7 @@
 ![](./img/4.jpg)
 ![](./img/5.jpg)
 
-### Fork 后同步我的更新
+### Fork 后同步更新
 可以参考[这个回答](https://www.zhihu.com/question/28676261/answer/1545698800)
 
 
