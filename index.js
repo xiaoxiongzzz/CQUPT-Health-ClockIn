@@ -205,6 +205,8 @@ function clockIn() {
     twsfzc: "是",
     // 今日是否有与新冠病毒感染有关的症状
     ywytdzz: "无",
+    //新增项目：健康码颜色
+    jkmresult: "绿色",
     // 备注
     beizhu: "无",
     mrdkkey: getMrdkKey(
