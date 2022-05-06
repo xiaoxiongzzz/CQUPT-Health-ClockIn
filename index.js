@@ -280,7 +280,7 @@ function sendNotification(text) {
     };
     ax(options)
       .then(res => {
-        const code = res.data.errno;
+        const code = res.data.errcode;
         if (code == 0) {
           console.log("发送通知成功");
         } else {
