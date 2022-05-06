@@ -271,7 +271,7 @@ function sendNotification(text) {
   } else if (secret_keys.push_key) {
     const push_key = secret_keys.push_key.replace(/[\r\n]/g, "");
     const options = {
-      url: `https://sc.ftqq.com/${push_key}.send`,
+      url: `https://sctapi.ftqq.com/${push_key}.send`,
       method: "GET",
       params: {
         text: text,
